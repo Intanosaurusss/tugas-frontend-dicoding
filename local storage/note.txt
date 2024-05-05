@@ -1,0 +1,20 @@
+Local Storage
+Tipe storage yang pertama adalah local storage yang digunakan untuk 
+menyimpan data tanpa ada batasan waktu. Data yang disimpan tidak 
+akan hilang bila browser atau tabs browser ditutup kecuali jika 
+kita menghapusnya.
+
+Untuk menggunakan local storage, kita harus 
+mengaksesnya melalui objek yang bernama "localStorage". 
+Kemudian untuk menyimpan datanya, kita harus menggunakan method setItem() 
+dari objek tersebut.
+
+Method setItem() membutuhkan 2 parameter, 
+di mana parameter pertama adalah key dan kedua 
+adalah value yang ingin kita simpan. Kemudian, 
+untuk mengaksesnya, kita memerlukan method getItem() 
+yang membutuhkan 1 parameter, yaitu nilai key yang kita 
+gunakan untuk menyimpan data. Sebagaimana disebutkan sebelumnya, 
+data pada local storage bisa dihapus dengan method removeItem() 
+yang menerima 1 parameter, yakni nilai key yang kita gunakan untuk 
+menyimpan sebuah objek.

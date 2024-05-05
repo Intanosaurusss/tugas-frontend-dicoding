@@ -1,0 +1,11 @@
+Session Storage
+Tipe storage yang kedua adalah Session Storage 
+yang digunakan untuk menyimpan data sementara pada browser. 
+Data akan hilang ketika browser atau tab browser ditutup.
+
+Untuk menerapkan session storage, kita dapat 
+menggunakan global objek sessionStorage. 
+Methods yang tersedia pada obyek tersebut mirip 
+dengan localStorage. Kita menggunakan method setItem() untuk 
+menyimpan data, method getItem() mengakses data yang tersimpan, 
+dan method removeItem() untuk menghapus item.
